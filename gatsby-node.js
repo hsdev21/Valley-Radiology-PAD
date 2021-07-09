@@ -8,8 +8,8 @@
 
 exports.createPages = async function ({ actions, graphql }) {
   const pluginOptions = {
-    wordPressUrl: `https://valleyradiolog.wpengine.com/`,
-    uploadsUrl: `https://valleyradiolog.wpengine.com/uploads/`,
+    wordPressUrl: `https://valleyradiolo1.wpengine.com/`,
+    uploadsUrl: `https://valleyradiolo1.wpengine.com/uploads/`,
   }
   const {
     data: {

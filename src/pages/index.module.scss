@@ -78,6 +78,7 @@
     }
     .text {
       color: #0e79bf;
+      max-width: 345px;
 
       h1 {
         font-size: 32px;
@@ -199,8 +200,8 @@
   background: rgb(0, 174, 239);
   background: linear-gradient(
     103deg,
-    rgba(0, 174, 239, 1) 0%,
-    rgba(14, 121, 191, 1) 100%
+    rgba(14, 121, 191, 1) 0%,
+    rgba(0, 174, 239, 1) 100%
   );
   color: #fff;
   font-size: 24px;

@@ -37,24 +37,13 @@ const IndexPage = ({ data }) => {
         <Container>
           <Row className={homePageStyles.row}>
             <Col lg={6} className={`${homePageStyles.text}`}>
-              <h1>
-                Uterine Fibroid Relief is Possible – Without Invasive Surgery!
-              </h1>
-              <h2>
-                Safe, effective, and personalized care for your uterine fibroids
-                is available at Valley Radiology.
-              </h2>
+              <h1>Stop Peripheral Artery Disease before it’s too late!</h1>
               <p>
-                Doctors Murali Meka and Bryan Swilley specialize in the
-                diagnosis and treatment of all types of uterine fibroids. With a
-                strong focus and understanding of effective therapy through
-                interventional radiology and uterine fibroid embolization (UFE),
-                uterine fibroid symptom relief is available to all women. Our
-                team of skilled doctors provides sought-after treatment and
-                state-of-the-art care that fits your personal medical needs
-                without the requirement for extensive surgery or long recovery
-                timelines. Relief from uterine fibroids is possible with UFE at
-                Valley Radiology.
+                Peripheral Artery Disease (PAD) is a common circulatory problem
+                with early warning signs such as leg pain when you walk,
+                numbness, cramps, and cold feet. Early detection and treatment
+                are crucial to prevent severe health problems, possibly leading
+                to amputation or death.
               </p>
             </Col>
             <Col lg={6} className={homePageStyles.heroForm}>
@@ -75,31 +64,31 @@ const IndexPage = ({ data }) => {
       </BackgroundImage>
       <Container fluid className={homePageStyles.callOut}>
         <Container>
-          Leading Radiologists for Advanced Diagnosis and Treatment of UFE
+          Leading Radiologists for Advanced Diagnosis and Treatment of PAD
         </Container>
       </Container>
       <Container fluid>
         <Container className={homePageStyles.genericSection}>
           <Row className={homePageStyles.mobileReverse}>
             <Col lg={6} className={homePageStyles.verticalCenter}>
-              <h2>Were you diagnosed with uterine fibroids?</h2>
+              <h2>Don’t ignore the symptoms</h2>
               <p>
-                Between 20-70% of women develop fibroids during their
-                reproductive years. Fibroids are one of the most common
-                reproductive diagnoses in women. While 99% of cases are
-                considered non-life threatening, we understand that the symptoms
-                can be painful and difficult to live with. Our non-invasive
-                treatment can rid you of symptoms, like heavy bleeding,
-                abdominal pain and general discomfort, with minimal recovery
-                time and lasting results.
+                <ul>
+                  <li>Leg fatigue while walking</li>
+                  <li>Mild to severe leg pain, especially after walking</li>
+                  <li>Numbness or tingling</li>
+                  <li>Leg cramping at night</li>
+                  <li>Lower-extremity sores that don’t heal</li>
+                  <li>Changes in the appearance of your legs</li>
+                </ul>
               </p>
               <p className={homePageStyles.buttonBottom}>
                 <Button
                   variant={"primary"}
                   className={homePageStyles.mainBtn}
-                  href="/uterine-fibroids/"
+                  href="/contact-us/"
                 >
-                  Learn More
+                  Book a Consultation Now!
                 </Button>
               </p>
             </Col>
@@ -124,23 +113,26 @@ const IndexPage = ({ data }) => {
               />
             </Col>
             <Col lg={6} className={homePageStyles.verticalCenter}>
-              <h2>Uterine Fibroid Embolization (UFE) Relieves Symptoms</h2>
+              <h2>Are you at high-risk for PAD?</h2>
               <p>
-                Fibroid pain can range in severity from person to person. The
-                most common symptoms include abdominal and pelvic pain and heavy
-                bleeding during the menstrual cycle. Uterine fibroid
-                embolization (UFE) is a minimally invasive treatment option that
-                utilizes interventional radiology to eliminate the symptoms of
-                fibroids for good, without the long hospital stay or extended
-                recovery time of traditional treatment options.{" "}
+                While it’s important to pay attention to PAD symptoms, not
+                everyone experiences common signs and symptoms. PAD is often
+                misdiagnosed, making it vital to pay attention to risk factors.
+              </p>
+              <p>
+                The most significant risk factors for PAD are hypertension,
+                diabetes, and smoking. If you are under 50 and are overweight or
+                have high blood pressure, you may also need to be screened. If
+                you are over 65 and/or have leg pain, numbness, or other
+                symptoms, call our office, and make an appointment.{" "}
               </p>
               <p className={homePageStyles.buttonBottom}>
                 <Button
                   variant={"primary"}
                   className={homePageStyles.mainBtn}
-                  href="/uterine-fibroid-embolization-ufe/"
+                  href="/contact-us/"
                 >
-                  Relief is Here
+                  Request a Screening
                 </Button>
               </p>
             </Col>
@@ -151,24 +143,24 @@ const IndexPage = ({ data }) => {
         <Container className={homePageStyles.genericSection}>
           <Row className={homePageStyles.mobileReverse}>
             <Col lg={6} className={homePageStyles.verticalCenter}>
-              <h2>Avoid a Hysterectomy</h2>
+              <h2>Receive a Timely Diagnoses and Tailored Treatment </h2>
               <p>
-                UFE is a low-risk treatment option with a high-success rate. UFE
-                is performed in an outpatient setting and typically completed
-                under an hour. With the use of a specialized camera, a catheter
-                is inserted into a patient’s groin or wrist. Embolic material is
-                injected into blood vessels that feed the fibroids, depriving
-                them of their blood supply. Over time the fibroids begin to
-                shrink and disappear, along with the symptoms. UFE Is one of the
-                safest and most successful alternatives to a hysterectomy.
+                The experienced doctors at Valley Radiology regularly diagnose
+                and treat men and women with PAD. Our team diagnoses your
+                condition and delivers a tailored treatment plan for best
+                results using the latest treatment options and state-of-the-art
+                facilities. We understand that PAD isn’t easy to live with,
+                which is why our treatment plans include lifestyle changes and
+                pain medications to reduce pain and enhance your quality of
+                life.
               </p>
               <p className={homePageStyles.buttonBottom}>
                 <Button
                   variant={"primary"}
                   className={homePageStyles.mainBtn}
-                  href="/interventional-radiology/"
+                  href="/innovative-treatments/"
                 >
-                  Recover Faster
+                  Learn More
                 </Button>
               </p>
             </Col>
@@ -193,23 +185,24 @@ const IndexPage = ({ data }) => {
               />
             </Col>
             <Col lg={6} className={homePageStyles.verticalCenter}>
-              <h2>
-                Request a UFE Consultation Today with our Team of Interventional
-                Radiology Experts!
-              </h2>
+              <h2>Trust in Our PAD Experts at Valley Radiology</h2>
               <p>
-                Use our easy online contact form or call{" "}
-                <a href="tel:+1-910-486-5700">910-486-5700</a> to learn more
-                about personal treatment options for your uterine fibroids
-                today.
+                Drs. Murali Meka and Bryan Swilley specialize in the diagnosis
+                and treatment of peripheral artery disease with a strong focus
+                and background in effective therapy through the use of
+                interventional radiology. Having this expertise in a single
+                location, focused on you, means that you’re receiving the best
+                treatment plan discussed among the team. Regardless of your
+                diagnoses, we can help determine the next steps and provide a
+                treatment option that works for you.
               </p>
               <p className={homePageStyles.buttonBottom}>
                 <Button
                   variant={"primary"}
                   className={homePageStyles.mainBtn}
-                  href="/contact-us/"
+                  href="/our-radiologists/"
                 >
-                  Learn More
+                  Meet Our Expert Team
                 </Button>
               </p>
             </Col>
@@ -274,9 +267,10 @@ const IndexPage = ({ data }) => {
               <h2>Quality Care Close to Home</h2>
               <p>
                 Receive the specialized care you deserve at Valley Radiology.
-                Our Fayetteville Clinic, offers the diagnoses and treatment of
-                uterine fibroids and is accepting new patients today. Schedule
-                your appointment now.
+                Our Fayetteville Clinic, offers diagnoses and treatment for men
+                and women with peripheral artery disease and is accepting new
+                patients today. Schedule your screening to prevent further
+                complications.
               </p>
               <p className={homePageStyles.buttonBottom}>
                 <Button
@@ -305,7 +299,7 @@ const IndexPage = ({ data }) => {
               <h2>
                 Contact Us
                 <br />
-                We're ready to help.
+                We're Ready to Help.
               </h2>
               <p className="text-center">
                 {" "}
