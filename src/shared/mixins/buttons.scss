@@ -1,0 +1,43 @@
+@import '../variables.scss';
+
+@mixin siteBtn($color) {
+  background-color: $color;
+  border-color: $color;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  color: #242729;
+  font-size: 20px;
+  padding: 10px 45px;
+
+  &:hover,
+  &:active,
+  &:focus {
+    border-color: $color !important;
+    color: $color !important;
+    background-color: #fff !important;
+  }
+}
+
+@mixin buttonMain {
+  background: rgb(14,121,191);
+  background: linear-gradient(0deg, rgba(14,121,191,1) 0%, rgba(0,173,238,1) 100%);
+  border: 1px solid rgb(14,121,191);
+  padding: 10px 45px;
+  transition: background-color 1.3s ease-in-out;
+
+  &:hover {
+    background: linear-gradient(0deg, rgba(0,173,238,1) 0%, rgba(14,121,191,1) 100%);
+  }
+}
+
+@mixin buttonSecondary {
+  background: #FDC13E;
+  border: 1px solid #fff;
+  color: #093D5F;
+  padding: 10px 45px;
+
+  &:hover {
+    background: $primary-color;
+  }
+}
