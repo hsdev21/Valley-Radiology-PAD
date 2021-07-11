@@ -96,7 +96,7 @@ const IndexPage = ({ data }) => {
               <Img
                 className={homePageStyles.homeImg}
                 fluid={data.section2.childImageSharp.fluid}
-                alt="A woman holding her abdomen in pain."
+                alt="A man holding his leg."
               />
             </Col>
           </Row>
@@ -109,7 +109,7 @@ const IndexPage = ({ data }) => {
               <Img
                 className={homePageStyles.homeImg}
                 fluid={data.section3.childImageSharp.fluid}
-                alt="A smiling woman relaxing."
+                alt="A couple hiking outdoors."
               />
             </Col>
             <Col lg={6} className={homePageStyles.verticalCenter}>
@@ -168,7 +168,7 @@ const IndexPage = ({ data }) => {
               <Img
                 className={homePageStyles.homeImg}
                 fluid={data.section4.childImageSharp.fluid}
-                alt="A woman holding her hands in a heart shape over her abdomen."
+                alt="A technician putting a patient in an MRI machine."
               />
             </Col>
           </Row>
@@ -181,7 +181,7 @@ const IndexPage = ({ data }) => {
               <Img
                 className={homePageStyles.homeImg}
                 fluid={data.section5.childImageSharp.fluid}
-                alt="A doctor writing at a desk."
+                alt="Doctors Murali Meka and Bryan Swilley."
               />
             </Col>
             <Col lg={6} className={homePageStyles.verticalCenter}>
