@@ -10,15 +10,15 @@ const Header = ({ data }) => {
   return (
     <StaticQuery
       query={graphql`
-            query {
-                logo: file(relativePath: { eq: "logo.png" }) {
-                    childImageSharp {
-                        fluid(quality: 90, maxWidth: 1920) {
-                        ...GatsbyImageSharpFluid
-                        }
-                    }
-                }
+        query {
+          logo: file(relativePath: { eq: "logo.png" }) {
+            childImageSharp {
+              fluid(quality: 90, maxWidth: 1920) {
+                ...GatsbyImageSharpFluid
+              }
             }
+          }
+        }
       `}
       render={data => (
         <>
@@ -39,8 +39,8 @@ const Header = ({ data }) => {
               <div className={headerStyles.headerRight}>
                 <span>
                   Call{" "}
-                  <a className="invoca" href="tel:910-323-2209">
-                    <strong>910-323-2209</strong>
+                  <a className="invoca" href="tel:910-486-5700">
+                    <strong>910-486-5700</strong>
                   </a>
                   <br />
                   <small>
@@ -62,7 +62,7 @@ const Header = ({ data }) => {
         </>
       )}
     />
-  );
+  )
 }
 
 export default Header

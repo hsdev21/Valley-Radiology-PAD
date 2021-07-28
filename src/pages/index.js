@@ -50,7 +50,7 @@ const IndexPage = ({ data }) => {
               <h3>Schedule Your Evaluation</h3>
               <p>
                 <small>
-                  by Calling <a href="+1-910-323-2209">910-323-2209</a> or
+                  by Calling <a href="+1-910-486-5700">910-486-5700</a> or
                   <br />
                   fill out the form below.
                 </small>
@@ -303,7 +303,7 @@ const IndexPage = ({ data }) => {
               </h2>
               <p className="text-center">
                 {" "}
-                Call <a href="tel:+1-910-323-2209">910-323-2209</a>
+                Call <a href="tel:+1-910-486-5700">910-486-5700</a>
                 <br />
                 <small>Or Use Our Easy Online Form.</small>
               </p>

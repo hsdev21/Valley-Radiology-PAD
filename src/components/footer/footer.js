@@ -18,31 +18,39 @@ const Footer = () => (
       </Row>
       <Row>
         <Col lg={6} className={`${footerStyles.map} text-center`}>
-          <h3>Telephone: <a href="tel:+1-910-323-2209">910-323-2209</a></h3>
-          <h3>Fax: 910-485-3180</h3>
+          <h3>
+            Telephone: <a href="tel:+1-910-486-5700">910-486-5700</a>
+          </h3>
+          <h3>Fax: 910-486-5750</h3>
           <p>
-            3186 Village Drive, Suite 101, Fayetteville, North Carolina 28304<br />
-            Monday - Thursday: 8am - 5pm, Friday: 8am - 2pm</p>
+            3186 Village Drive, Suite 201, Fayetteville, North Carolina 28304
+            <br />
+            Monday - Friday: 8am - 5pm
+          </p>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3266.994732440035!2d-78.9312397847588!3d35.03186168035087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ab149e1c387515%3A0x45994ef80c9f0e4!2s3186%20Village%20Dr%20%23101%2C%20Fayetteville%2C%20NC%2028304!5e0!3m2!1sen!2sus!4v1624917127935!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d433.1576062478933!2d-78.92922515504485!3d35.03187866682101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ab149e1c47610d%3A0x5ee1a05f1243d7b6!2s3186%20Village%20Dr%20%23201%2C%20Fayetteville%2C%20NC%2028304!5e0!3m2!1sen!2sus!4v1627512966660!5m2!1sen!2sus"
             width="100%"
             height="350"
-            style={{ border: '1px solid #C1D72F' }}
+            style={{ border: "1px solid #C1D72F" }}
             loading="lazy"
             title="Fayetteville location map"
           ></iframe>
         </Col>
         <Col lg={6} className={`${footerStyles.map} text-center`}>
-          <h3>Telephone: <a href="tel:+1-910-323-2209">910-323-2209</a></h3>
-          <h3>Fax: 910-485-3180</h3>
+          <h3>
+            Telephone: <a href="tel:+1-919-331-2001">919-331-2001</a>
+          </h3>
+          <h3>Fax: 919-331-2003</h3>
           <p>
-          169 Rawls Road, Angier, North Carolina 27501<br/>
-          Monday - Friday: 8am - 5pm</p>
+            169 Rawls Road, Angier, North Carolina 27501
+            <br />
+            Monday - Friday: 8am - 5pm
+          </p>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3266.994732440035!2d-78.9312397847588!3d35.03186168035087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ab149e1c387515%3A0x45994ef80c9f0e4!2s3186%20Village%20Dr%20%23101%2C%20Fayetteville%2C%20NC%2028304!5e0!3m2!1sen!2sus!4v1624917232110!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12990.270197847285!2d-78.743866!3d35.51497!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x85e68e6baa2255d9!2sValley%20Radiology!5e0!3m2!1sen!2sus!4v1627512870640!5m2!1sen!2sus"
             width="100%"
             height="350"
-            style={{border: '1px solid #C1D72F'}}
+            style={{ border: "1px solid #C1D72F" }}
             loading="lazy"
             title="Angier location map"
           ></iframe>

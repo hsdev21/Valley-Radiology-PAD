@@ -34,7 +34,7 @@ const PageContact = ({
           <p>
             To find out more or to schedule an appointment in our main office,
             or a new patient consultation in one of our offices, call us at{" "}
-            <a href="tel:+1-910-323-2209">910-323-2209</a>. You can also request
+            <a href="tel:+1-910-486-5700">910-486-5700</a>. You can also request
             an appointment using the easy online form on this page.
           </p>
         </Col>
@@ -44,7 +44,9 @@ const PageContact = ({
           <img src={locationPhoto} alt="Valley Radiology location" />
         </Col>
         <Col lg={6} className={contactStyles.pageContent}>
-          <h2 className="text-center" style={{marginBottom: '25px'}}>Get In Touch</h2>
+          <h2 className="text-center" style={{ marginBottom: "25px" }}>
+            Get In Touch
+          </h2>
           <GravityForm />
         </Col>
       </Row>
