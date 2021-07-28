@@ -28,7 +28,7 @@ const Footer = () => (
             Monday - Friday: 8am - 5pm
           </p>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d433.1576062478933!2d-78.92922515504485!3d35.03187866682101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ab149e1c47610d%3A0x5ee1a05f1243d7b6!2s3186%20Village%20Dr%20%23201%2C%20Fayetteville%2C%20NC%2028304!5e0!3m2!1sen!2sus!4v1627512966660!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1250.884551881121!2d-78.93104563756188!3d35.032741073280114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ab149e1c473d15%3A0x72ee1c539cb47cdf!2sValley%20Radiology%20Vascular%20%26%20Interventional%20Clinic!5e0!3m2!1sen!2sus!4v1627513661334!5m2!1sen!2sus"
             width="100%"
             height="350"
             style={{ border: "1px solid #C1D72F" }}
