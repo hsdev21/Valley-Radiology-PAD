@@ -51,7 +51,7 @@ const Header = ({ data }) => {
                   variant={"primary"}
                   as={Link}
                   className={headerStyles.headerBtn}
-                  to={"/contact-us"}
+                  to={"/contact/"}
                 >
                   Book Online
                 </Button>
