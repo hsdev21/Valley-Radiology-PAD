@@ -23,7 +23,9 @@ const Footer = () => (
           </h3>
           <h3>Fax: 910-486-5750</h3>
           <p>
-            3186 Village Drive, Suite 201, Fayetteville, North Carolina 28304
+            3186 Village Drive, Suite 201
+            <br />
+            Fayetteville, North Carolina 28304
             <br />
             Monday - Friday: 8am - 5pm
           </p>

@@ -37,13 +37,15 @@ const IndexPage = ({ data }) => {
         <Container>
           <Row className={homePageStyles.row}>
             <Col lg={6} className={`${homePageStyles.text}`}>
-              <h1>Stop Peripheral Artery Disease before it’s too late!</h1>
+              <h1>Find out if you have peripheral artery disease</h1>
               <p>
-                Peripheral Artery Disease (PAD) is a common circulatory problem
-                with early warning signs such as leg pain when you walk,
-                numbness, cramps, and cold feet. Early detection and treatment
-                are crucial to prevent severe health problems, possibly leading
-                to amputation or death.
+                Peripheral artery disease (PAD) is when your arteries become
+                narrowed or blocked, usually due to plaque or calcium buildup.
+                This is a normal part of aging and primarily impacts the
+                arteries in the legs. When blood vessels become blocked, painful
+                wounds or ulcers can develop. At Valley Radiology, our highly
+                trained vascular and interventional radiologists use their
+                expertise and knowledge to treat PAD successfully.
               </p>
             </Col>
             <Col lg={6} className={homePageStyles.heroForm}>
@@ -64,7 +66,8 @@ const IndexPage = ({ data }) => {
       </BackgroundImage>
       <Container fluid className={homePageStyles.callOut}>
         <Container>
-          Leading Radiologists for Advanced Diagnosis and Treatment of PAD
+          If left untreated, PAD could result in amputation, stroke, and even
+          death
         </Container>
       </Container>
       <Container fluid>
@@ -74,12 +77,11 @@ const IndexPage = ({ data }) => {
               <h2>Don’t ignore the symptoms</h2>
               <p>
                 <ul>
-                  <li>Leg fatigue while walking</li>
-                  <li>Mild to severe leg pain, especially after walking</li>
-                  <li>Numbness or tingling</li>
-                  <li>Leg cramping at night</li>
-                  <li>Lower-extremity sores that don’t heal</li>
-                  <li>Changes in the appearance of your legs</li>
+                  <li>Leg fatigue with pain while walking</li>
+                  <li>Sores</li>
+                  <li>Wounds or ulcers that do not heal</li>
+                  <li>Discoloration of legs</li>
+                  <li>Numbness or Tingling</li>
                 </ul>
               </p>
               <p className={homePageStyles.buttonBottom}>
@@ -88,7 +90,7 @@ const IndexPage = ({ data }) => {
                   className={homePageStyles.mainBtn}
                   href="/contact-us/"
                 >
-                  Book a Consultation Now!
+                  Book Online
                 </Button>
               </p>
             </Col>
@@ -115,16 +117,14 @@ const IndexPage = ({ data }) => {
             <Col lg={6} className={homePageStyles.verticalCenter}>
               <h2>Are you at high-risk for PAD?</h2>
               <p>
-                While it’s important to pay attention to PAD symptoms, not
-                everyone experiences common signs and symptoms. PAD is often
-                misdiagnosed, making it vital to pay attention to risk factors.
-              </p>
-              <p>
-                The most significant risk factors for PAD are hypertension,
-                diabetes, and smoking. If you are under 50 and are overweight or
-                have high blood pressure, you may also need to be screened. If
-                you are over 65 and/or have leg pain, numbness, or other
-                symptoms, call our office, and make an appointment.{" "}
+                Not everyone experiences the same symptoms of PAD. This
+                condition is often misdiagnosed, making it vital to pay
+                attention to risk factors. The most significant risk factors are
+                hypertension, diabetes, and smoking. If you’re under 50 and
+                overweight or have high blood pressure, we recommend a checkup
+                and screening. If you’re over 65 and/or have leg pain, numbness,
+                or other symptoms, make an appointment today to prevent future
+                complications.
               </p>
               <p className={homePageStyles.buttonBottom}>
                 <Button
@@ -132,7 +132,7 @@ const IndexPage = ({ data }) => {
                   className={homePageStyles.mainBtn}
                   href="/contact-us/"
                 >
-                  Request a Screening
+                  Book Online
                 </Button>
               </p>
             </Col>
@@ -145,14 +145,12 @@ const IndexPage = ({ data }) => {
             <Col lg={6} className={homePageStyles.verticalCenter}>
               <h2>Receive a Timely Diagnoses and Tailored Treatment </h2>
               <p>
-                The experienced doctors at Valley Radiology regularly diagnose
-                and treat men and women with PAD. Our team diagnoses your
-                condition and delivers a tailored treatment plan for best
-                results using the latest treatment options and state-of-the-art
-                facilities. We understand that PAD isn’t easy to live with,
-                which is why our treatment plans include lifestyle changes and
-                pain medications to reduce pain and enhance your quality of
-                life.
+                The experienced specialists at Valley Radiology regularly
+                diagnose and treat men and women with PAD. Our team will
+                carefully diagnose your condition within state-of-the-art
+                facilities and deliver a tailored treatment plan for best
+                results. We also encourage and oversee lifestyle changes to
+                reduce pain and enhance your quality of life.
               </p>
               <p className={homePageStyles.buttonBottom}>
                 <Button
@@ -185,16 +183,16 @@ const IndexPage = ({ data }) => {
               />
             </Col>
             <Col lg={6} className={homePageStyles.verticalCenter}>
-              <h2>Trust in Our PAD Experts at Valley Radiology</h2>
+              <h2>Meet Murali Meka, MD, and Bryan Swilley, MD</h2>
               <p>
-                Drs. Murali Meka and Bryan Swilley specialize in the diagnosis
-                and treatment of peripheral artery disease with a strong focus
-                and background in effective therapy through the use of
-                interventional radiology. Having this expertise in a single
-                location, focused on you, means that you’re receiving the best
-                treatment plan discussed among the team. Regardless of your
-                diagnoses, we can help determine the next steps and provide a
-                treatment option that works for you.
+                Our board-certified vascular and interventional specialists,
+                Murali Meka, MD, and Bryan Swilley, MD, specialize in diagnosing
+                and treating PAD. They each bring a strong focus and background
+                in effective therapy through interventional radiology. Having
+                this expertise in a single location, focused on you, means that
+                you’re receiving the best treatment plan discussed among the
+                team. Regardless of your diagnosis, we can help determine the
+                next steps and provide a treatment option that works for you.
               </p>
               <p className={homePageStyles.buttonBottom}>
                 <Button
@@ -267,10 +265,10 @@ const IndexPage = ({ data }) => {
               <h2>Quality Care Close to Home</h2>
               <p>
                 Receive the specialized care you deserve at Valley Radiology.
-                Our Fayetteville Clinic, offers diagnoses and treatment for men
-                and women with peripheral artery disease and is accepting new
-                patients today. Schedule your screening to prevent further
-                complications.
+                Our Fayetteville Clinic offers diagnosis and treatment for men
+                and women with peripheral artery disease and is now accepting
+                new patients. Schedule your appointment to discuss your
+                individualized treatment options.
               </p>
               <p className={homePageStyles.buttonBottom}>
                 <Button
