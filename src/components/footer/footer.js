@@ -21,7 +21,7 @@ const Footer = () => (
           <h3>
             Telephone: <a href="tel:+1-910-486-5700">910-486-5700</a>
           </h3>
-          <h3>Fax: 910-486-5750</h3>
+          <h3>Fax: 910-486-5950</h3>
           <p>
             3186 Village Drive, Suite 201
             <br />
