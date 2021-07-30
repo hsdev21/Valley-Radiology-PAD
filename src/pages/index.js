@@ -175,7 +175,11 @@ const IndexPage = ({ data }) => {
       <Container fluid className={homePageStyles.lightBack}>
         <Container className={homePageStyles.genericSection}>
           <Row>
-            <Col lg={6} className={homePageStyles.verticalCenter}>
+            <Col
+              lg={6}
+              className={homePageStyles.verticalCenter}
+              style={{ marginBottom: "20px" }}
+            >
               <Img
                 className={homePageStyles.homeImg}
                 fluid={data.section5.childImageSharp.fluid}
