@@ -32,7 +32,7 @@ const Page = ({
           <Col lg={8} className={pageStyles.pageContent}>
             <div>{pageContent}</div>
           </Col>
-          <Col lg={4} className={pageStyles.sidebar}>
+          <Col lg={4} className={`${pageStyles.sidebar} sidebar`}>
             <p>Schedule Your Evaluation</p>
             <p>
               <span>

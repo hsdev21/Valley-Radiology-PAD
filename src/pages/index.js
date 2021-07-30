@@ -180,7 +180,12 @@ const IndexPage = ({ data }) => {
                 className={homePageStyles.homeImg}
                 fluid={data.section5.childImageSharp.fluid}
                 alt="Doctors Murali Meka and Bryan Swilley."
+                style={{ marginBottom: "5px" }}
               />
+              <Row>
+                <Col xs={6}>Dr. Murali Meka</Col>
+                <Col xs={6}>Dr. Bryan Swiley</Col>
+              </Row>
             </Col>
             <Col lg={6} className={homePageStyles.verticalCenter}>
               <h2>Meet Murali Meka, MD, and Bryan Swilley, MD</h2>

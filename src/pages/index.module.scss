@@ -62,6 +62,8 @@
 }
 
 .section1 {
+  border-bottom: 1px solid #c1d72f;
+  border-top: 1px solid #c1d72f;
   padding: 3rem 0;
 
   @media screen and (max-width: 768px) {
@@ -78,7 +80,7 @@
     }
     .text {
       color: #0e79bf;
-      max-width: 345px;
+      max-width: 410px;
 
       h1 {
         font-size: 32px;
@@ -100,9 +102,9 @@
       background: rgb(0, 117, 221);
       background: linear-gradient(
         180deg,
-        rgba(0, 117, 221, 1) 0%,
-        rgba(0, 84, 158, 1) 53%,
-        rgba(0, 60, 113, 1) 100%
+        rgba(0, 117, 221, 0.8) 0%,
+        rgba(0, 84, 158, 0.8) 53%,
+        rgba(0, 60, 113, 0.8) 100%
       );
       border: 1px solid #fff;
       border-radius: 10px;
@@ -216,14 +218,25 @@
   padding: 150px 0;
 
   .formContainer {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgb(0, 117, 221);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 117, 221, 0.8) 0%,
+      rgba(0, 84, 158, 0.8) 53%,
+      rgba(0, 60, 113, 0.8) 100%
+    );
+    border-radius: 10px;
     color: #fff;
-    padding: 50px;
+    margin: auto;
+    max-width: 500px;
+    padding: 50px 30px;
 
     h2 {
       text-align: center;
       color: #fff;
+      font-weight: bold;
       margin-bottom: 20px;
+      letter-spacing: 1px;
     }
 
     p {
