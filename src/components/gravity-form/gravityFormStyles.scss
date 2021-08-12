@@ -71,6 +71,7 @@
   @extend .btn;
   @extend .btn-primary;
   @include buttonSecondary();
+  border: 1px solid #fff;
   text-transform: uppercase;
 }
 

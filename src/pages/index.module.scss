@@ -15,10 +15,17 @@
   }
 
   h2 {
+    color: #000;
     margin-top: 25px;
 
     @media screen and (min-width: 992px) {
       margin-top: 0;
+    }
+  }
+
+  p {
+    strong {
+      color: $primary-color;
     }
   }
 
@@ -62,9 +69,7 @@
 }
 
 .section1 {
-  border-bottom: 1px solid #c1d72f;
-  border-top: 1px solid #c1d72f;
-  padding: 3rem 0;
+  padding: 1.4rem 0;
 
   @media screen and (max-width: 768px) {
     &:after {
@@ -80,15 +85,12 @@
     }
     .text {
       color: #0e79bf;
-      max-width: 410px;
+      font-family: "Helvetica Neue Medium", sans-serif;
+      max-width: 350px;
 
       h1 {
         font-size: 32px;
-      }
-
-      h2 {
-        font-size: 24px;
-        margin-bottom: 15px;
+        line-height: 2.7rem;
       }
 
       p {
@@ -102,9 +104,9 @@
       background: rgb(0, 117, 221);
       background: linear-gradient(
         180deg,
-        rgba(0, 117, 221, 0.8) 0%,
-        rgba(0, 84, 158, 0.8) 53%,
-        rgba(0, 60, 113, 0.8) 100%
+        rgba(0, 117, 221, 0.7) 0%,
+        rgba(0, 84, 158, 0.7) 53%,
+        rgba(0, 60, 113, 0.7) 100%
       );
       border: 1px solid #fff;
       border-radius: 10px;
@@ -150,6 +152,10 @@
       input {
         border: 1px solid #fff !important;
         border-radius: 5px;
+
+        &:hover {
+          border: 1px solid #fff !important;
+        }
       }
 
       button {
@@ -247,5 +253,15 @@
     a {
       color: #fff;
     }
+  }
+}
+
+.noBorder {
+  margin: auto;
+  max-width: 1200px;
+
+  img {
+    border: none !important;
+    margin: auto;
   }
 }

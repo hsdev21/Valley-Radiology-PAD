@@ -20,45 +20,34 @@
 }
 
 @mixin buttonMain {
-  background: rgb(14, 121, 191);
-  background: linear-gradient(
-    0deg,
-    rgba(14, 121, 191, 1) 0%,
-    rgba(0, 173, 238, 1) 100%
-  );
-  border: 1px solid rgb(14, 121, 191);
+  background: #00aeef;
+  border: 1px solid #0e79bf;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
   padding: 10px 45px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
   transition: background-color 1.3s ease-in-out;
 
   &:hover {
-    background: linear-gradient(
-      0deg,
-      rgba(0, 173, 238, 1) 0%,
-      rgba(14, 121, 191, 1) 100%
-    );
+    background: #02e1ff;
   }
 }
 
 @mixin buttonSecondary {
-  background: rgb(165, 185, 38);
-  background: linear-gradient(
-    0deg,
-    rgba(165, 185, 38, 1) 0%,
-    rgba(193, 215, 47, 1) 100%
-  );
-  border: 1px solid #fff;
-  color: #fff;
+  background: #c1d72f;
+  border: 1px solid #9eb025;
+  font-size: 1.1rem;
   font-weight: bold;
-  padding: 10px;
-  width: 100%;
+  letter-spacing: 1px;
+  padding: 10px 45px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  transition: background-color 1.3s ease-in-out;
 
   &:hover {
-    background: rgb(14, 121, 191);
-    background: linear-gradient(
-      0deg,
-      rgba(14, 121, 191, 1) 0%,
-      rgba(0, 173, 238, 1) 100%
-    );
-    border: 1px solid #fff;
+    background: #dbf533;
+    border: 1px solid #9eb025;
   }
 }

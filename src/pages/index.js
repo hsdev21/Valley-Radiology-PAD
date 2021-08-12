@@ -16,6 +16,8 @@ import humana from "../images/humana.jpg"
 import medicaid from "../images/medicaid.jpg"
 import united from "../images/united.jpg"
 
+import "./index.scss"
+
 const IndexPage = ({ data }) => {
   const {
     seo: {
@@ -49,15 +51,16 @@ const IndexPage = ({ data }) => {
               </p>
             </Col>
             <Col lg={6} className={homePageStyles.heroForm}>
-              <h3>Schedule Your Evaluation</h3>
               <p>
                 <small>
-                  by Calling <a href="+1-910-486-5700">910-486-5700</a> or
+                  Contact Us. We're ready to help.
                   <br />
-                  fill out the form below.
+                  Call <a href="+1-910-486-5700">910-486-5700</a>
+                  <br />
+                  Or Use Our Online Contact Form
                 </small>
               </p>
-              <div className={homePageStyles.gravityForm}>
+              <div className={`${homePageStyles.gravityForm} gravityForm`}>
                 <GravityForm className={homePageStyles.gravityForm} />
               </div>
             </Col>
@@ -87,7 +90,7 @@ const IndexPage = ({ data }) => {
               <p className={homePageStyles.buttonBottom}>
                 <Button
                   variant={"primary"}
-                  className={homePageStyles.mainBtn}
+                  className={homePageStyles.secondaryBtn}
                   href="/contact-us/"
                 >
                   Book Online
@@ -119,12 +122,12 @@ const IndexPage = ({ data }) => {
               <p>
                 Not everyone experiences the same symptoms of PAD. This
                 condition is often misdiagnosed, making it vital to pay
-                attention to risk factors. The most significant risk factors are
-                hypertension, diabetes, and smoking. If you’re under 50 and
-                overweight or have high blood pressure, we recommend a checkup
-                and screening. If you’re over 65 and/or have leg pain, numbness,
-                or other symptoms, make an appointment today to prevent future
-                complications.
+                attention to risk factors. The most significant risk factors are{" "}
+                <strong>hypertension, diabetes, and smoking</strong>. If you’re
+                under 50 and overweight or have high blood pressure, we
+                recommend a checkup and screening. If you’re over 65 and/or have
+                leg pain, numbness, or other symptoms, make an appointment today
+                to prevent future complications.
               </p>
               <p className={homePageStyles.buttonBottom}>
                 <Button
@@ -155,7 +158,7 @@ const IndexPage = ({ data }) => {
               <p className={homePageStyles.buttonBottom}>
                 <Button
                   variant={"primary"}
-                  className={homePageStyles.mainBtn}
+                  className={homePageStyles.secondaryBtn}
                   href="/innovative-treatments/"
                 >
                   Learn More
@@ -171,6 +174,15 @@ const IndexPage = ({ data }) => {
             </Col>
           </Row>
         </Container>
+      </Container>
+      <Container fluid className={homePageStyles.genericSection}>
+        <div className={"text-center"}>
+          <Img
+            className={`${homePageStyles.homeImg} ${homePageStyles.noBorder}`}
+            fluid={data.sliderImage.childImageSharp.fluid}
+            alt="Testimonial slider."
+          />
+        </div>
       </Container>
       <Container fluid className={homePageStyles.lightBack}>
         <Container className={homePageStyles.genericSection}>
@@ -206,7 +218,7 @@ const IndexPage = ({ data }) => {
               <p className={homePageStyles.buttonBottom}>
                 <Button
                   variant={"primary"}
-                  className={homePageStyles.mainBtn}
+                  className={homePageStyles.secondaryBtn}
                   href="/our-radiologists/"
                 >
                   Meet Our Expert Team
@@ -285,7 +297,7 @@ const IndexPage = ({ data }) => {
                   className={homePageStyles.mainBtn}
                   href="/contact-us/"
                 >
-                  Contact Us Now
+                  Book Online
                 </Button>
               </p>
             </Col>
@@ -314,7 +326,9 @@ const IndexPage = ({ data }) => {
                 <br />
                 <small>Or Use Our Easy Online Form.</small>
               </p>
-              <GravityForm />
+              <div className="gravityForm">
+                <GravityForm />
+              </div>
             </Col>
           </Row>
         </Container>
@@ -382,6 +396,13 @@ export const query = graphql`
       }
     }
     contactSection: file(relativePath: { eq: "contact-us-bg.jpg" }) {
+      childImageSharp {
+        fluid(quality: 90, maxWidth: 1920) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    sliderImage: file(relativePath: { eq: "slider.jpg" }) {
       childImageSharp {
         fluid(quality: 90, maxWidth: 1920) {
           ...GatsbyImageSharpFluid
