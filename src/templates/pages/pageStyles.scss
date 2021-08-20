@@ -34,3 +34,22 @@ h2.blue {
   margin-bottom: 50px;
   padding: 20px;
 }
+
+.insurance-logos {
+  margin-bottom: 1rem;
+
+  .insurance-logo {
+    float: left;
+    margin: 10px 0;
+    width: 100%;
+
+    @media screen and (min-width: 768px) {
+      margin: 10px;
+      width: 30%;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+}
