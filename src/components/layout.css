@@ -1,4 +1,5 @@
 @import "../css/typography.css";
+@import "../shared/variables.scss";
 
 html {
   -ms-text-size-adjust: 100%;
@@ -403,6 +404,17 @@ body.modal-open .modal-content .modal-body h3 {
 .slick-next:before,
 .slick-prev:before {
   content: "" !important;
+}
+
+.aligncenter {
+  border: 1px solid #c1d72f;
+  margin-bottom: 30px;
+  max-width: 100%;
+}
+
+h2.blue {
+  color: #0e79bf;
+  margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 480px) {

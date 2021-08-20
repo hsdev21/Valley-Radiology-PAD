@@ -75,7 +75,7 @@ const IndexPage = ({ data }) => {
           death!
         </Container>
       </Container>
-      <Container fluid>
+      <Container fluid className={homePageStyles.section2}>
         <Container className={homePageStyles.genericSection}>
           <Row className={homePageStyles.mobileReverse}>
             <Col lg={6} className={homePageStyles.verticalCenter}>
@@ -93,7 +93,7 @@ const IndexPage = ({ data }) => {
                 <Button
                   variant={"primary"}
                   className={homePageStyles.secondaryBtn}
-                  href="/contact-us/"
+                  href="/contact/"
                 >
                   Book Online
                 </Button>
@@ -135,7 +135,7 @@ const IndexPage = ({ data }) => {
                 <Button
                   variant={"primary"}
                   className={homePageStyles.mainBtn}
-                  href="/contact-us/"
+                  href="/contact/"
                 >
                   Book Online
                 </Button>
@@ -219,10 +219,7 @@ const IndexPage = ({ data }) => {
                   personable. The day of my appointment, I was greeted at my car
                   by another friendly staff member, and each person that I came
                   in contact with at that facility was so courteous and kind.
-                  They were caring and interested in my history and life. No one
-                  rushed. They were right on time. I didn't have to wait. I
-                  don't normally write reviews, but I was impressed. Thank you
-                  to all the staff at Valley Radiology! Great job!"
+                  Thank you to all the staff at Valley Radiology! Great job!"
                 </em>
                 <br />
                 <div className={homePageStyles.author}>Jake L.</div>
@@ -343,7 +340,7 @@ const IndexPage = ({ data }) => {
                 <Button
                   variant={"primary"}
                   className={homePageStyles.mainBtn}
-                  href="/contact-us/"
+                  href="/contact/"
                 >
                   Book Online
                 </Button>

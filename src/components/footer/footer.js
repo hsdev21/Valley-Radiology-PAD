@@ -5,7 +5,7 @@ import FooterNav from "./footer-navigaton/footer-navigation"
 import logo from "../../images/logo.png"
 
 const Footer = () => (
-  <>
+  <footer>
     <Container className={footerStyles.footerTextContainer}>
       <Row>
         <Col className={`${footerStyles.footerLogo} text-center`}>
@@ -54,7 +54,7 @@ const Footer = () => (
         </a>
       </span>
     </Container>
-  </>
+  </footer>
 )
 
 export default Footer

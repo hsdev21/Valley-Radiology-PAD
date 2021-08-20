@@ -9,6 +9,8 @@ import { Container, Row, Col } from "react-bootstrap"
 import pageStyles from "./pageStyles.module.scss"
 import contentParser from "gatsby-wpgraphql-inline-images"
 
+import "./pageStyles.scss"
+
 const Page = ({
   data: {
     wpcontent: {
@@ -33,14 +35,14 @@ const Page = ({
             <div>{pageContent}</div>
           </Col>
           <Col lg={4} className={`${pageStyles.sidebar} sidebar`}>
-            <p>Schedule Your Evaluation</p>
+            <p>To Request an Appointment</p>
             <p>
               <span>
-                by calling <a href={"tel:+1-910-486-5700"}>910-486-5700</a>
+                call <a href={"tel:+1-910-486-5700"}>910-486-5700</a>
               </span>
             </p>
             <p style={{ marginBottom: "20px" }}>
-              <span>or fill out the form below.</span>
+              <span>or Use Our Online Contact Form</span>
             </p>
             <GravityForm />
           </Col>

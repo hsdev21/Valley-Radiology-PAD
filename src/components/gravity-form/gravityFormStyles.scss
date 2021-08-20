@@ -65,13 +65,18 @@
     background: #fff;
     border-radius: 0;
   }
+
+  .gform_button {
+    border: 1px solid #9eb025 !important;
+    padding: 10px 0 !important;
+    width: 100%;
+  }
 }
 
 .gform_wrapper .button {
   @extend .btn;
   @extend .btn-primary;
   @include buttonSecondary();
-  border: 1px solid #fff;
   text-transform: uppercase;
 }
 
