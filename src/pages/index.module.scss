@@ -14,6 +14,10 @@
     border: 1px solid #c1d72f;
   }
 
+  .blueBorder img {
+    border: 1px solid #00aeef !important;
+  }
+
   h2 {
     color: #000;
     margin-top: 25px;
@@ -201,6 +205,22 @@
     border: none;
     max-width: 400px;
     width: 100%;
+  }
+}
+
+.testimonialSlider {
+  color: #00aeef;
+  font-size: 25px;
+
+  p {
+    padding: 0 1em;
+
+    .author {
+      color: $gray;
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 25px;
+    }
   }
 }
 
