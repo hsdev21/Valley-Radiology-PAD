@@ -45,6 +45,12 @@ const Page = ({
               <span>or Use Our Online Contact Form</span>
             </p>
             <GravityForm />
+            <small>
+              <em>
+                *We’ll contact you shortly to confirm an appointment time
+                convenient to your schedule.
+              </em>
+            </small>
           </Col>
         </Row>
       </Container>

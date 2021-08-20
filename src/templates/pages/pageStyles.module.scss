@@ -23,8 +23,14 @@
     }
   }
 
+  small {
+    color: $gray;
+    display: block;
+    margin-top: 1rem;
+  }
+
   .gform_wrapper form {
-    margin-top: 25px;
+    margin-top: 1rem;
 
     input[type="text"] {
       border: 2px solid #fff;
