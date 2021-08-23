@@ -80,15 +80,13 @@ const IndexPage = ({ data }) => {
           <Row className={homePageStyles.mobileReverse}>
             <Col lg={6} className={homePageStyles.verticalCenter}>
               <h2>Don’t ignore the symptoms</h2>
-              <p>
-                <ul>
-                  <li>Leg fatigue with pain while walking</li>
-                  <li>Sores</li>
-                  <li>Wounds or ulcers that do not heal</li>
-                  <li>Discoloration of legs</li>
-                  <li>Numbness or Tingling</li>
-                </ul>
-              </p>
+              <ul>
+                <li>Leg fatigue with pain while walking</li>
+                <li>Sores</li>
+                <li>Wounds or ulcers that do not heal</li>
+                <li>Discoloration of legs</li>
+                <li>Numbness or Tingling</li>
+              </ul>
               <p className={homePageStyles.buttonBottom}>
                 <Button
                   variant={"primary"}
@@ -195,7 +193,7 @@ const IndexPage = ({ data }) => {
                   for these services."
                 </em>
                 <br />
-                <div className={homePageStyles.author}>John S.</div>
+                <span className={homePageStyles.author}>John S.</span>
               </p>
               <p>
                 <em>
@@ -208,7 +206,7 @@ const IndexPage = ({ data }) => {
                   anywhere else!"
                 </em>
                 <br />
-                <div className={homePageStyles.author}>Amy B.</div>
+                <span className={homePageStyles.author}>Amy B.</span>
               </p>
               <p>
                 <em>
@@ -222,7 +220,7 @@ const IndexPage = ({ data }) => {
                   Thank you to all the staff at Valley Radiology! Great job!"
                 </em>
                 <br />
-                <div className={homePageStyles.author}>Jake L.</div>
+                <span className={homePageStyles.author}>Jake L.</span>
               </p>
             </Slider>
           </div>
@@ -244,7 +242,7 @@ const IndexPage = ({ data }) => {
               />
               <Row>
                 <Col xs={6}>Dr. Murali Meka</Col>
-                <Col xs={6}>Dr. Bryan Swiley</Col>
+                <Col xs={6}>Dr. Bryan Swilley</Col>
               </Row>
             </Col>
             <Col lg={6} className={homePageStyles.verticalCenter}>

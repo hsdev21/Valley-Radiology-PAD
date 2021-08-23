@@ -39,7 +39,7 @@ const PageContact = ({
           </p>
         </Col>
       </Row>
-      <Row>
+      <Row style={{ marginBottom: "2rem" }}>
         <Col lg={6} className={contactStyles.pageContent}>
           <img src={locationPhoto} alt="Valley Radiology location" />
         </Col>

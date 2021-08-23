@@ -1,11 +1,12 @@
 footer {
   border-top: 1px solid #c1d72f;
+  padding: 3em 0 0 0;
 
   .footerTextContainer {
-    padding: 3em 0 1em 0;
+    padding-bottom: 1rem;
 
     .footerLogo {
-      margin-bottom: 2em;
+      margin-bottom: 2rem;
 
       img {
         max-width: 250px;
@@ -43,7 +44,7 @@ footer {
       span {
         color: #585858;
         font-size: 18px;
-        padding-right: 35px;
+        padding-right: 20px;
 
         &:last-child {
           padding-right: 0;
@@ -57,7 +58,7 @@ footer {
     justify-content: center;
     background-color: #0e79bf;
     color: #fff;
-    padding: 15px 0;
+    padding: 15px;
     font-size: 16px;
 
     a {
