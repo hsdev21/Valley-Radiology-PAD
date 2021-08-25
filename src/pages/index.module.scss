@@ -83,7 +83,7 @@
       background: #fff;
       background-image: unset !important;
       content: "";
-      opacity: 0.6 !important;
+      opacity: 0.75 !important;
       height: 100%;
       width: 100%;
     }
@@ -100,8 +100,12 @@
       flex-direction: row;
     }
     .text {
-      color: #0e79bf;
+      color: #004987;
       max-width: 350px;
+
+      @media screen and (min-width: 992px) {
+        color: #0e79bf;
+      }
 
       h1 {
         font-family: "Helvetica Neue Medium", sans-serif;
@@ -110,7 +114,11 @@
       }
 
       p {
-        color: #707070;
+        color: #54565a;
+
+        @media screen and (min-width: 992px) {
+          color: #707070;
+        }
       }
     }
 
