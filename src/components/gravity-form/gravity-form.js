@@ -1,28 +1,28 @@
-import React from 'react'
-import GravityFormForm from 'gatsby-gravityforms-component'
-import { AllGravityData } from "../../hooks/gravityforms";
-import { navigate } from 'gatsby';
-import './gravityFormStyles.scss';
+import React from "react"
+import GravityFormForm from "gatsby-gravityforms-component"
+import { AllGravityData } from "../../hooks/gravityforms"
+import { navigate } from "gatsby"
+import "./gravityFormStyles.scss"
 
-function handleError({values, error, reset}){
-    console.log(error);
-    console.log(values);
+function handleError({ values, error, reset }) {
+  console.log(error)
+  console.log(values)
 }
 
-function handleSuccess({values, reset, confirmations}){
-    reset();
-    navigate('/contact-us/thank-you');
+function handleSuccess({ values, reset, confirmations }) {
+  reset()
+  navigate("/contact-us/thank-you")
 }
 
-const GravityForm = (props) => (
-    <GravityFormForm
-        id={1}
-        formData={AllGravityData()}
-        lambda={`https://valley-radiology.netlify.app/.netlify/functions/newGfEntry`}
-        successCallback={handleSuccess}
-        errorCallback={handleError}
-        className={props.className}
-    />
+const GravityForm = props => (
+  <GravityFormForm
+    id={1}
+    formData={AllGravityData()}
+    lambda={`https://valleyradiologypad.com/.netlify/functions/newGfEntry`}
+    successCallback={handleSuccess}
+    errorCallback={handleError}
+    className={props.className}
+  />
 )
 
 export default GravityForm
