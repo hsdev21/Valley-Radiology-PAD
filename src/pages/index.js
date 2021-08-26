@@ -184,43 +184,52 @@ const IndexPage = ({ data }) => {
             <Slider>
               <p>
                 <em>
-                  "I have used this facility for multiple types of exams. I can
-                  not say enough good things about this center. From the
-                  friendly front desk staff to techs that have always been so
-                  sweet and comforting to how fast I get my results...most of
-                  the time it is the same day!! I highly recommend this center
-                  to any of my friends and family. I do not go any where else
-                  for these services."
+                  "From the receptionist upfront to the checkout clerk, the
+                  entire staff was Exceptionally professional and supportive.
+                  Two nurses attended to my needs. Both were awesome! Very
+                  patient, gentle, kind, accommodating. Dr. Meka was
+                  Exceptionally kind. He calmly explained the procedure to be
+                  performed on my next visit. Answered all of my questions and
+                  reassured me that all should go well. I felt well cared for.
+                  And I must add that the receptionist at the entrance was very
+                  kind and polite as well. She took my temperature, summoned the
+                  elevator for me, and wished me a safe and enjoyable weekend!"
                 </em>
                 <br />
-                <span className={homePageStyles.author}>John S.</span>
+                <span className={homePageStyles.author}>M. Williams</span>
               </p>
               <p>
                 <em>
-                  "I have always received a exceptional care when I visit Valley
-                  Radiology. Everyone I have dealt with is very friendly, yet
-                  very professional. The phone is always answered when I call.
-                  The wait time for tests is very minimal. The technicians
-                  always explain in detail what to do and what they are doing.
-                  And your privacy is also a main concern. I will not go
-                  anywhere else!"
+                  "My foot was turning purple from poor circulation. They looked
+                  at it and set an appointment for the next day for an
+                  ultrasound. As I was walking out the door, they called out to
+                  see if I wanted to do the ultrasound now. That was huge in my
+                  mind. Then they set an appointment for an angiogram the next
+                  morning. I have only great thoughts on how I was treated. I
+                  would absolutely recommend them."
                 </em>
                 <br />
-                <span className={homePageStyles.author}>Amy B.</span>
+                <span className={homePageStyles.author}>D. Romstadt</span>
               </p>
               <p>
                 <em>
-                  "Valley Radiology, in Angier, probably has the best customer
-                  service of any place I have ever walked into. From start to
-                  finish, the staff was wonderful. I was called the day before
-                  my appointment, and the lady was delightful and very
-                  personable. The day of my appointment, I was greeted at my car
-                  by another friendly staff member, and each person that I came
-                  in contact with at that facility was so courteous and kind.
-                  Thank you to all the staff at Valley Radiology! Great job!"
+                  "To Dr. Meka and all members of this dynamic team of Medical
+                  staff and all Kind, Patient, Caring, Compassionate Healthcare
+                  providers. Thank you for being super Sheroes and Heroes! Bless
+                  you!"
                 </em>
                 <br />
-                <span className={homePageStyles.author}>Jake L.</span>
+                <span className={homePageStyles.author}>Ms. M. Williams</span>
+              </p>
+              <p>
+                <em>
+                  "The best &amp; most caring medical professionals & staff
+                  EVER!! It always made me feel like I was the only patient they
+                  had! I only wish I had met Dr. Meka a lot sooner than I did!
+                  But so glad I finally did."
+                </em>
+                <br />
+                <span className={homePageStyles.author}>D. Denham</span>
               </p>
             </Slider>
           </div>
