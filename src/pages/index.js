@@ -262,7 +262,7 @@ const IndexPage = ({ data }) => {
                 <Button
                   variant={"primary"}
                   className={homePageStyles.secondaryBtn}
-                  href="/our-radiologists/"
+                  href="/our-specialists/"
                 >
                   Meet Our Expert Team
                 </Button>
