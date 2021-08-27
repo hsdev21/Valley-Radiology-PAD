@@ -94,17 +94,17 @@
   }
 
   .row {
-    flex-direction: column-reverse;
+    flex-direction: column;
 
     @media screen and (min-width: 992px) {
       flex-direction: row;
     }
     .text {
       color: #004987;
-      max-width: 350px;
 
       @media screen and (min-width: 992px) {
         color: #0e79bf;
+        max-width: 350px;
       }
 
       h1 {

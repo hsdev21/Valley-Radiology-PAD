@@ -26,4 +26,10 @@
       color: #fff;
     }
   }
+
+  @media screen and (min-width: 992px) {
+    .navLink:first-child {
+      display: none;
+    }
+  }
 }

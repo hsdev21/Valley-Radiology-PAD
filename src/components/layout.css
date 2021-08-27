@@ -415,6 +415,33 @@ h2.blue {
   margin-bottom: 30px;
 }
 
+.sidebar-btns {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 10%;
+  z-index: 99;
+  font-size: 1.125rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 0.9375rem;
+  border-radius: 0.25rem;
+  background-image: url("/arrow-up.svg");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  background-position: center;
+}
+
+#scroll-btn {
+  right: 15%;
+  background-image: url("/arrow-up.svg");
+  background-color: burlywood;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

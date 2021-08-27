@@ -54,6 +54,11 @@ const Footer = () => (
         </a>
       </span>
     </Container>
+    <button
+      id="scroll-btn"
+      className="sidebar-btns"
+      title="Scroll to top"
+    ></button>
   </footer>
 )
 
