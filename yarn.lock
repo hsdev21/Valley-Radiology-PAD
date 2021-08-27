@@ -6889,6 +6889,13 @@
     "@babel/runtime" "^7.12.5"
     "escape-string-regexp" "^1.0.5"
 
+"gatsby-plugin-google-analytics@^2.1.25":
+  "integrity" "sha512-LEX18pAL39M/Ba3xgRCLl6Coj5qae5vTxC3lcO40UWtQcfhRGAKMWgkCNA/7LfpTnOgvIDttvReLztdUkYx6PA=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.1.25.tgz"
+  "version" "2.1.25"
+  dependencies:
+    "@babel/runtime" "^7.7.2"
+
 "gatsby-plugin-google-tagmanager@^2.1.25":
   "integrity" "sha512-Db5EKRLjSSQea/b9ix+ZLjj9gG8clkNScXuF+QnxJl/LF2F8BmEsfGqMZj+3a2LONSpaax///kjuolVqmYsHsw=="
   "resolved" "https://registry.npmjs.org/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-2.1.25.tgz"
