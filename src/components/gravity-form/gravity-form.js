@@ -18,7 +18,7 @@ const GravityForm = props => (
   <GravityFormForm
     id={1}
     formData={AllGravityData()}
-    lambda={`https://valleyradiologypad.com/.netlify/functions/newGfEntry`}
+    lambda={`/.netlify/functions/newGfEntry`}
     successCallback={handleSuccess}
     errorCallback={handleError}
     className={props.className}
