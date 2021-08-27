@@ -184,16 +184,13 @@ const IndexPage = ({ data }) => {
             <Slider>
               <p>
                 <em>
-                  "From the receptionist upfront to the checkout clerk, the
-                  entire staff was Exceptionally professional and supportive.
-                  Two nurses attended to my needs. Both were awesome! Very
-                  patient, gentle, kind, accommodating. Dr. Meka was
-                  Exceptionally kind. He calmly explained the procedure to be
-                  performed on my next visit. Answered all of my questions and
-                  reassured me that all should go well. I felt well cared for.
-                  And I must add that the receptionist at the entrance was very
-                  kind and polite as well. She took my temperature, summoned the
-                  elevator for me, and wished me a safe and enjoyable weekend!"
+                  "Dr. Meka was Exceptionally kind. He calmly explained the
+                  procedure to be performed on my next visit. Answered all of my
+                  questions and reassured me that all should go well. I felt
+                  well cared for. And I must add that the receptionist at the
+                  entrance was very kind and polite as well. She took my
+                  temperature, summoned the elevator for me, and wished me a
+                  safe and enjoyable weekend!"
                 </em>
                 <br />
                 <span className={homePageStyles.author}>M. Williams</span>
