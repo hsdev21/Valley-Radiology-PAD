@@ -14,7 +14,7 @@ const Header = ({ data }) => {
           logo: file(relativePath: { eq: "logo.png" }) {
             childImageSharp {
               fluid(quality: 90, maxWidth: 1920) {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_noBase64
               }
             }
           }
