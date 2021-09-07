@@ -71,8 +71,8 @@ const IndexPage = ({ data }) => {
       </BackgroundImage>
       <Container fluid className={homePageStyles.callOut}>
         <Container>
-          If left untreated, PAD could result in amputation, stroke, and even
-          death!
+          If PAD is left untreated, it could result in amputation and
+          disability, eventually leading to death!
         </Container>
       </Container>
       <Container fluid className={homePageStyles.section2}>
