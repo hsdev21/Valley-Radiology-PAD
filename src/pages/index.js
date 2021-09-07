@@ -47,9 +47,9 @@ const IndexPage = ({ data }) => {
                 clogged, usually due to plaque or calcium buildup. This is a
                 normal part of aging and primarily affects the arteries in the
                 legs. When blood vessels are blocked, painful wounds or ulcers
-                can develop. Our highly trained vascular and interventional
-                specialists at Valley Radiology use their knowledge and
-                expertise to treat PAD successfully.
+                can develop. The highly trained vascular and interventional
+                specialists at Valley Radiology's limb salvage center use their
+                knowledge and expertise to treat PAD successfully.
               </p>
             </Col>
             <Col lg={6} className={homePageStyles.heroForm}>
