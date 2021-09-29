@@ -2,7 +2,7 @@
 
 A Gatsby website with WordPress on the back end using React Bootstrap, SASS, and CSS modules.
 
-![alt text](https://www.chrysaliswebdevelopment.com/wp-content/uploads/2021/09/Screen-Shot-2021-09-29-at-1.17.08-PM.png)
+![alt text](https://www.chrysaliswebdevelopment.com/wp-content/uploads/2021/09/Screen-Shot-2021-09-29-at-12.24.41-PM.png)
 
 See it in action here: https://valleyradiologypad.com/
 
