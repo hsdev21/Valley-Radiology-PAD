@@ -243,26 +243,18 @@ const IndexPage = ({ data }) => {
               <Img
                 className={homePageStyles.homeImg}
                 fluid={data.section5.childImageSharp.fluid}
-                alt="Doctors Murali Meka and Bryan Swilley."
+                alt="Doctors Murali Meka, M.D., Tirth Patel, M.D. and Osmani Deochand, M.D."
                 style={{ marginBottom: "5px" }}
               />
-              <Row>
+              {/* <Row>
                 <Col xs={6}>Dr. Murali Meka</Col>
                 <Col xs={6}>Dr. Bryan Swilley</Col>
-              </Row>
+              </Row> */}
             </Col>
             <Col lg={6} className={homePageStyles.verticalCenter}>
-              <h2>Meet Murali Meka, MD, and Bryan Swilley, MD</h2>
+              <h2>Meet Murali Meka, MD, Tirth Patel, MD and Osmani Deochand, MD</h2>
               <p>
-                Our board-certified vascular and interventional specialists,
-                Murali Meka, MD, and Bryan Swilley, MD, specialize in diagnosing
-                and treating PAD. They each bring a strong focus and extensive
-                training in effective therapy through interventional radiology.
-                Having this expertise in a single location, focused on you,
-                means that you’re receiving the most innovative treatment
-                methods possible. Regardless of your diagnosis, we can help
-                determine the next steps and provide a treatment option that
-                works for you.
+              Our board-certified vascular and interventional specialists, Murali Meka, M.D., Tirth Patel, M.D. and Osmani Deochand, M.D., specialize in diagnosing and treating PAD. They each bring a strong focus and extensive training in effective therapy through interventional radiology. Having this expertise in a single location, focused on you, means that you’re receiving the most innovative treatment methods possible. Regardless of your diagnosis, we can help determine the next steps and provide a treatment option that works for you.
               </p>
               <p className={homePageStyles.buttonBottom}>
                 <Button
